@@ -73,9 +73,8 @@ export default function Welcome() {
               />
             </div>
             {/* description */}
-            <p className="text-[#9c9c9c] text-[1.1rem] lg:w-[90%]">
-              Where skill meets true randomness - harnessing the power of AP13
-              Airnode RNG for an unbeatable blockchain poker experience.
+            <p className="text-[#9c9c9c] pl-6 text-[1.1rem] lg:w-[90%]">
+              First Poker Game on Optimism Mainnet. 
             </p>
             {/* boxes */}
             <div className="flex w-[82%] max-md:w-full gap-x-6 mt-6">
