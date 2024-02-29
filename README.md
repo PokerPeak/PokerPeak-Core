@@ -1,6 +1,7 @@
   <div align="center">
-    
-  ![logo](https://github.com/priyanshu-7938/ENCODE_lightlink/assets/115649011/e639b248-8336-4f78-a784-e049de70256e)
+
+  ![logo2](https://github.com/PokerPeak/PokerPeak-Core/assets/115649011/fdd6c5f0-68d5-4822-94bd-672fca60d04e)
+
   <p>
     <strong>Where skill meets true randomness - harnessing the power of AP13 Airnode RNG for an unbeatable blockchain poker experience.</strong>
   </p>
