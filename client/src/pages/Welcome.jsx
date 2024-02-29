@@ -23,9 +23,9 @@ export default function Welcome() {
         {/* links */}
         <div className="flex space-x-14 text-[1.1rem] max-sm:hidden items-center">
           <Link to="/">Home</Link>
-          <Link to="/">Contest</Link>
-          <Link to="/">Rooms</Link>
-          <Link to="/">DashBoard</Link>
+          <Link to="/home/tournament">Contest</Link>
+          <Link to="/home/rooms">Rooms</Link>
+          <Link to="/home/dashboard">DashBoard</Link>
         </div>
         <div className="flex items-center gap-4">
           {token === null ? (

@@ -81,10 +81,10 @@ export default function Login() {
   return (
     <>
       <div className="h-screen flex flex-col gap-1 items-center justify-center">
-        <div className="bg-primary text-accent w-[50%] p-5 px-6 shadow-md rounded-[30px]">
+        <div className="bg-black text-white text-accent w-[50%] p-5 px-6 shadow-2xl shadow-gray-900 rounded-[30px]">
           <p className="text-4xl font-bold font-goudy">Log In</p>
           <div className="m-2">
-            <div className="flex flex-col text-card gap-3">
+            <div className="flex text-gray-400 flex-col text-card gap-3">
               <ConnectWallet
                 switchToActiveChain={true}
                 displayBalanceToken={{
@@ -105,13 +105,13 @@ export default function Login() {
                   />
                   <div className="flex gap-2">
                     <button
-                      className="bg-[#F4DFC8] w-[70%] mt-5 p-1 rounded-[20px] font-bold flex gap-2 items-center justify-center"
+                      className="bg-primary text-white w-[70%] mt-5 p-1 rounded-[20px] font-bold flex gap-2 items-center justify-center"
                       onClick={Handelogin}
                     >
                       <p className="text-3xl">🐻‍❄️</p>Validate..
                     </button>
                     <button
-                      className="bg-[#ebdccb] w-[30%] mt-5 p-1 rounded-[20px] font-bold flex items-center justify-center"
+                      className="bg-white text-primary w-[30%] mt-5 p-1 rounded-[20px] font-bold flex items-center justify-center"
                       onClick={() => {
                         navigate("/signup");
                       }}

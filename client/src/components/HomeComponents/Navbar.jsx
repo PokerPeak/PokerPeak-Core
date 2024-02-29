@@ -2,7 +2,7 @@
 import { fullScreenState } from "@/atoms/triggers";
 import { LightlinkPegasusTestnet } from "@thirdweb-dev/chains";
 import { ConnectWallet } from "@thirdweb-dev/react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useRecoilValue } from "recoil";
 import logo from "../../assets/logo2.png";
 import { useTheContext } from "../../context";
@@ -26,9 +26,9 @@ export default function Navbar() {
         } flex justify-between px-4 py-1 pb-2 border-b border-border`}
       >
         <div className="flex gap-2 items-center">
-          <div className="flex items-center justify-center">
+          <Link to="/" className="flex items-center justify-center">
             <img src={logo} className="w-[210px]" alt="" />
-          </div>
+          </Link>
         </div>
         {/* stuff of users.. */}
         <div className="flex mx-2 gap-4">

@@ -81,7 +81,7 @@ export default function Avatar({ avatar, setAvatar}){
                     <img src={avatar} className="grayscale" alt="" />
                     <div className="bg-[#000] w-full rounded-[20px] h-[3px]"></div>
                     <div className="flex justify-end">
-                        <button className="bg-[#F4DFC8] m-1 px-3 py-1 rounded-[20px] font-bold items-center justify-center" onClick={()=>{setEditor((val)=>!val)}}>Edit.</button>
+                        <button className="hover:border-primary hover:text-white text-gray-400  border-b m-1 px-3 py-1 rounde-[20px] font-bold items-center justify-center" onClick={()=>{setEditor((val)=>!val)}}>Edit.</button>
                     </div>
                     
                 </div>
