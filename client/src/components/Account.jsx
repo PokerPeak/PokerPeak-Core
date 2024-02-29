@@ -19,8 +19,8 @@ export default function Account() {
   console.log("filtered : ", filteredUser);
 
   return (
-    <main className="px-10 bg-[#2b2b2b] py-2 w-full rounded-md ">
-      <h1 className="text-[2rem] w-full font-bold border-b border-gray-500 text-primary">
+    <main className="px-10 bg-[#141414] py-2 w-full rounded-md ">
+      <h1 className="text-[2rem] w-full font-bold border-b border-gray-500 text-white">
         User Details :{" "}
       </h1>
       {/* right side */}

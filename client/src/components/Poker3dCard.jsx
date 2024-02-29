@@ -46,7 +46,7 @@ export function Poker3dCard() {
             alt="thumbnail"
           /> */}
           <img
-            src="/assets/landing.png"
+            src="/assets/landing1.jpg"
             alt="poker face"
             className="object-cover w-full h-full rounded-md shadow-xl group-hover/card:shadow-xl"
           />

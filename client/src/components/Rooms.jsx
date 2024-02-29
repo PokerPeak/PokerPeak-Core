@@ -86,7 +86,7 @@ const Rooms = () => {
               <div className="flex flex-col">
                 {" "}
                 {/* Left Side */}
-                <h3 className='text-primary text-[1.1rem]'>
+                <h3 className='text-gray-400 text-[1.1rem]'>
                 <span className='text-white mr-2'>Room Id : </span>
                   {element.contrctAddress}</h3>
                 <p className='text-green-400 text-[1.1rem]'>

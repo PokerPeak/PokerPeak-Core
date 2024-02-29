@@ -1,13 +1,11 @@
 // import React from "react";
-import logo from "../../assets/logo.png";
-import logout from "../../assets/logout.png";
-import rupee from "../../assets/rupee.png";
-import { useTheContext } from "../../context";
-import { ConnectWallet } from "@thirdweb-dev/react";
+import { fullScreenState } from "@/atoms/triggers";
 import { LightlinkPegasusTestnet } from "@thirdweb-dev/chains";
+import { ConnectWallet } from "@thirdweb-dev/react";
 import { useNavigate } from "react-router-dom";
 import { useRecoilValue } from "recoil";
-import { fullScreenState } from "@/atoms/triggers";
+import logo from "../../assets/logo2.png";
+import { useTheContext } from "../../context";
 
 export default function Navbar() {
   const { userData, setUserData } = useTheContext();
@@ -25,11 +23,11 @@ export default function Navbar() {
       <div
         className={` ${
           !FullScreenTrigger && "hidden"
-        } flex justify-between py-1 pb-2 border-b border-[#A1763A]`}
+        } flex justify-between px-4 py-1 pb-2 border-b border-border`}
       >
         <div className="flex gap-2 items-center">
           <div className="flex items-center justify-center">
-            <img src={logo} className="h-[40px]" alt="" />
+            <img src={logo} className="w-[210px]" alt="" />
           </div>
         </div>
         {/* stuff of users.. */}

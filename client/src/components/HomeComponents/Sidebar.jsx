@@ -20,7 +20,7 @@ export default function Sidebar() {
               <p className="font-bold">My Account</p>
               <div
                 className={`h-[3px] rounded-[30px] ${
-                  thisUrl.includes("account") ? "bg-[#aa7b0d]" : ""
+                  thisUrl.includes("account") ? "bg-[#a10f0a]" : ""
                 }`}
               ></div>
             </div>
@@ -33,7 +33,7 @@ export default function Sidebar() {
               <p className="font-bold">Dashboard</p>
               <div
                 className={`h-[3px] rounded-[30px] ${
-                  thisUrl.includes("dashboard") ? "bg-[#aa7b0d]" : ""
+                  thisUrl.includes("dashboard") ? "bg-[#a10f0a]" : ""
                 }`}
               ></div>
             </div>
@@ -46,7 +46,7 @@ export default function Sidebar() {
               <p className="font-bold">Tournament</p>
               <div
                 className={`h-[3px] rounded-[30px] ${
-                  thisUrl.includes("tournament") ? "bg-[#aa7b0d]" : ""
+                  thisUrl.includes("tournament") ? "bg-[#a10f0a]" : ""
                 }`}
               ></div>
             </div>
@@ -59,7 +59,7 @@ export default function Sidebar() {
               <p className="font-bold">Rooms</p>
               <div
                 className={`h-[3px] rounded-[30px] ${
-                  thisUrl.includes("rooms") ? "bg-[#aa7b0d]" : ""
+                  thisUrl.includes("rooms") ? "bg-[#a10f0a]" : ""
                 }`}
               ></div>
             </div>
@@ -67,7 +67,7 @@ export default function Sidebar() {
         </Link>
       </div>
       <div className="text-sm m-1 flex justify-center mt-auto">
-        <p>@ellumina.2024</p>
+        <p>@pokerpeak.2024</p>
       </div>
     </div>
   );

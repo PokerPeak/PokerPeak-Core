@@ -22,9 +22,9 @@ const Dashboard = () => {
   ];
 
   return (
-    <div className="bg-[#2b2b2b] w-full min-h-screen text-white">
+    <div className="bg-[#141414] w-full min-h-screen text-white">
       <div className="container max-lg:mx-auto px-4 py-8 " >
-        <h1 className="text-3xl font-bold text-primary mb-4">Gameplay History</h1>
+        <h1 className="text-3xl font-bold text-white mb-4">Gameplay History</h1>
         <table className="w-full table-auto border-collapse rounded-md">
           <thead>
             <tr>

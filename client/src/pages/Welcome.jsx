@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/logo1.png";
+import logo from "../assets/logo2.png";
 import { Link, useNavigate } from "react-router-dom";
 import { ArrowRightToLineIcon } from "lucide-react";
 import { Faq } from "@/components/Faq";
@@ -14,20 +14,20 @@ export default function Welcome() {
 
   return (
     <div className="h-full relative p-3 dark bg-background min-h-screen">
-      <div className="flex justify-between">
+      <div className="flex justify-between xl:px-20">
         <div className="flex gap-2">
           <div className="flex items-center justify-center">
-            <img src={logo} className="w-[180px]" alt="" />
+            <img src={logo} className="w-[240px]" alt="" />
           </div>
         </div>
         {/* links */}
-        <div className="flex space-x-14 text-[1.1rem] items-center">
+        <div className="flex space-x-14 text-[1.1rem] max-sm:hidden items-center">
           <Link to="/">Home</Link>
           <Link to="/">Contest</Link>
           <Link to="/">Rooms</Link>
           <Link to="/">DashBoard</Link>
         </div>
-        <div className="flex gap-4">
+        <div className="flex items-center gap-4">
           {token === null ? (
             <>
               <Button
@@ -59,11 +59,14 @@ export default function Welcome() {
       </div>
 
       {/* main */}
-      <main className="px-4 max-w-[1700px] pt-24 mx-auto">
+      <main className="px-4 max-w-[1650px] pt-24 mx-auto">
         {/* container */}
-        <div className="flex max-lg:flex-col-reverse  justify-between items-center">
+        <div
+          className="flex max-lg:flex-col  
+         justify-between items-center"
+        >
           {/* left */}
-          <section className="flex flex-col space-y-6 items-start">
+          <section className="flex flex-1 flex-col space-y-6 items-start">
             {/* play poker image */}
             <div className="w-full h-[250px] max-w-[460px]">
               <img
@@ -74,10 +77,10 @@ export default function Welcome() {
             </div>
             {/* description */}
             <p className="text-[#9c9c9c] pl-6 text-[1.1rem] lg:w-[90%]">
-              First Poker Game on Optimism Mainnet. 
+              Skill meets opportunity: Earn on the first Optimism poker game
             </p>
             {/* boxes */}
-            <div className="flex w-[82%] max-md:w-full gap-x-6 mt-6">
+            <div className="flex w-full xl:w-[80%] gap-x-6 mt-6">
               <Faq />
             </div>
           </section>
@@ -92,7 +95,7 @@ export default function Welcome() {
           </div>
         </div>
       </main>
-      <Footer className="absolute bottom-2" />
+      <Footer />
     </div>
   );
 }

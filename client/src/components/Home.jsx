@@ -42,7 +42,7 @@ export default function Home() {
           <Sidebar />
         </div>
 
-        <div className="w-[2px] bg-[#A1763A]"></div>
+        <div className="w-[2px] bg-border"></div>
         <Routes>
           <Route path="account" element={<Account />} />
           <Route path="rooms" element={<Rooms />} />
